@@ -1,7 +1,5 @@
 <?php
 
-session_start(); // for phpunit
-
 /**
  * @var $loader \Composer\Autoload\ClassLoader
  */
