@@ -22,10 +22,7 @@ trait Variable
     {
         if (!$this->init)
         {
-            if ($_COOKIE === null)
-            {
-                global $_COOKIE;
-            }
+            global $_COOKIE;
 
             $this->init   = true;
             $this->object = &$_COOKIE;
