@@ -4,15 +4,15 @@ include_once dirname(__DIR__) . '/vendor/autoload.php';
 
 $builder = new Deimos\Builder\Builder();
 $cookie  = new Deimos\Cookie\Cookie($builder, [
-    \Deimos\Cookie\Cookie::OPTION_LIFETIME => 3600 * 24 * 7
+    \Deimos\Cookie\Cookie::OPTION_LIFETIME => 3600 * 24 * 7,
+    \Deimos\Cookie\Cookie::OPTION_SECURE   => null // without secure
 ]);
 
-$cookie->hello = 'hello';
+$cookie->hello = 'привет';
 
 if (!isset($cookie->helloDeimosFlash))
 {
     $cookie->flash('hello', 1);
-
 }
 
 $requiredHello = $cookie->getRequired('hello');
