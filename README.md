@@ -1,5 +1,5 @@
 # DeimosCookie
 
-[![Code Climate](https://codeclimate.com/github/REZ1DENT3/DeimosCookie/badges/gpa.svg)](https://codeclimate.com/github/REZ1DENT3/DeimosCookie)
-[![Test Coverage](https://codeclimate.com/github/REZ1DENT3/DeimosCookie/badges/coverage.svg)](https://codeclimate.com/github/REZ1DENT3/DeimosCookie/coverage)
-[![Issue Count](https://codeclimate.com/github/REZ1DENT3/DeimosCookie/badges/issue_count.svg)](https://codeclimate.com/github/REZ1DENT3/DeimosCookie)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/REZ1DENT3/DeimosCookie/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/REZ1DENT3/DeimosCookie/?branch=master)
+[![Code Coverage](https://scrutinizer-ci.com/g/REZ1DENT3/DeimosCookie/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/REZ1DENT3/DeimosCookie/?branch=master)
+[![Build Status](https://scrutinizer-ci.com/g/REZ1DENT3/DeimosCookie/badges/build.png?b=master)](https://scrutinizer-ci.com/g/REZ1DENT3/DeimosCookie/build-status/master)
