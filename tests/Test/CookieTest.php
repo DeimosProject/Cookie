@@ -76,13 +76,6 @@ class CookieTest extends TestSetUp
             ]
         ]);
 
-        global $_COOKIE;
-
-        $this->assertNotEquals(
-            $_COOKIE['secret'],
-            $this->cookie->secret
-        );
-
         $this->assertEquals(
             $rand,
             $this->cookie->secret
@@ -93,8 +86,13 @@ class CookieTest extends TestSetUp
             Cookie::OPTION_LIFETIME => 1
         ]);
 
+        $this->assertNotEquals(
+            $rand,
+            $this->cookie->notSecret
+        );
+
         $this->assertEquals(
-            $_COOKIE['notSecret'],
+            $rand,
             $this->cookie->get('notSecret', null, [
                 Cookie::OPTION_SECURE => null
             ])

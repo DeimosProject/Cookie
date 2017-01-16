@@ -25,7 +25,7 @@ trait Variable
             global $_COOKIE;
 
             $this->init   = true;
-            $this->object = &$_COOKIE;
+            $this->object = $_COOKIE;
         }
 
         return !$this->init;
